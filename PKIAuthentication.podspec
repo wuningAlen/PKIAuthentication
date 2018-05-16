@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE'}        # 开源证书
   s.summary      = "A delightful TextField of PhoneNumber" # 项目简介
 
-  s.homepage     = "https://github.com/wuningAlen" # 你的主页
+  s.homepage     = "https://github.com/wuningAlen/PKIAuthentication" # 你的主页
   s.source       = { :git => "https://github.com/wuningAlen/PKIAuthentication.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   s.source_files = "PKIAuthentication/*.{h,m}" # 你代码的位置， BYPhoneNumTF/*.{h,m} 表示 BYPhoneNumTF 文件夹下所有的.h和.m文件
   s.requires_arc = true # 是否启用ARC
